@@ -3,7 +3,7 @@ from .forms import RegisterForm
 from django.views import View
 
 # Create your views here.
-class SignupView(View): 
+class SignupView(View):  #Sginup View get inputs from Signup Form ,refies its integrity and saves it
     template_name = 'sign_up.html'
     
     def get(self, request):
