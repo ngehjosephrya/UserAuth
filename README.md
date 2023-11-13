@@ -5,5 +5,10 @@ This is a simple user Authentication system built using Django, crispy forms and
 # Requirements
 - django
 - django crispy forms
-- bootstrap 4
-
+- crispy bootstrap 4
+# Commands
+- python -m pip install Django
+- pip install crispy-bootstrap4
+- pip install django-crispy-forms
+## Optional
+- pip install django-bootstrap4
